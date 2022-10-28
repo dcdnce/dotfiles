@@ -35,13 +35,18 @@ set tabstop=4
 set shiftwidth=4
 set nowrap
 
-"--------------------------------- COLORS --------------------------------- 
+"--------------------------------- PLUGINS --------------------------------- 
 let g:airline_theme='base16'
 
 let g:user_emmet_leader_key='<C-Z>'
 
 let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:auto_save_silent = 1  " do not display the auto-save notification
-
+"
+" seoul256 (dark):
+"   Range:   233 (darkest) ~ 239 (lightest)
+"   Default: 237
+let g:seoul256_background = 233
 colo seoul256
+
 set background=dark
