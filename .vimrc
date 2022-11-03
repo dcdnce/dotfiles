@@ -17,7 +17,6 @@ Plugin 'junegunn/seoul256.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin '907th/vim-auto-save'
-Plugin 'pbondoer/vim-42header'
 call vundle#end()            " required
 filetype plugin indent on    " required
 "
@@ -45,6 +44,11 @@ nnoremap <F2> :NERDTreeToggle<CR>
 
 let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:auto_save_silent = 1  " do not display the auto-save notification
-
+"
+" seoul256 (dark):
+"   Range:   233 (darkest) ~ 239 (lightest)
+"   Default: 237
+let g:seoul256_background = 233
 colo seoul256
+
 set background=dark
