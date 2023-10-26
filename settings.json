@@ -1,0 +1,38 @@
+{
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
+    "editor.fontFamily": "'Jetbrains Mono'",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.guides.indentation": false,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.fontSize": 14,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "omnisharp.useModernNet": false,
+    "omnisharp.monoPath": "/usr/bin/mono",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.fontSize": 12,
+    "cmake.configureOnOpen": false,
+    "extensions.ignoreRecommendations": true,
+    "3dviewer.background": "#3477eb",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.o": true
+    },
+    "workbench.editorAssociations": {
+        "*.obj": "default"
+    }
+}
