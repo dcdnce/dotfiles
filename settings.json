@@ -19,7 +19,7 @@
     "omnisharp.useModernNet": false,
     "omnisharp.monoPath": "/usr/bin/mono",
     "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 11,
     "cmake.configureOnOpen": false,
     "extensions.ignoreRecommendations": true,
     "3dviewer.background": "#3477eb",
