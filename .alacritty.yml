@@ -363,7 +363,7 @@ cursor:
 
 # Shell
 shell:
-  program: /bin/zsh
+  program: /usr/bin/tmux
 #  args:
 #    - --login
 
@@ -477,6 +477,9 @@ shell:
 # default paste binding:
 #
 # `- { key: V, mods: Control|Shift, action: Paste }`
+#
+key_bindings:
+  - { key: N, mods: Control, action: SpawnNewInstance }
 #
 # Each key binding will specify a:
 #
