@@ -12,15 +12,20 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-"Plugin 'justinmk/vim-syntax-extra'
+Plugin 'justinmk/vim-syntax-extra'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin '907th/vim-auto-save'
-Plugin 'pbondoer/vim-42header'
-Plugin 'sheerun/vim-polyglot'
 call vundle#end()            " required
 filetype plugin indent on    " required
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+
 
 "--------------------------------- OTHERS --------------------------------- 
 syntax on
@@ -39,6 +44,13 @@ nnoremap <F2> :NERDTreeToggle<CR>
 
 let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:auto_save_silent = 1  " do not display the auto-save notification
-
+"
+" seoul256 (dark):
+"   Range:   233 (darkest) ~ 239 (lightest)
+"   Default: 237
+let g:seoul256_background = 233
 colo seoul256
+
 set background=dark
+" no background (opacity)
+hi Normal ctermbg=NONE guibg=NONE
