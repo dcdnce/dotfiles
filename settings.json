@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.colorTheme": "Gruvbox Light (Hard)",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1,
     "editor.fontFamily": "'Jetbrains Mono'",
@@ -7,19 +7,14 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": false,
     "editor.guides.indentation": false,
-    "breadcrumbs.enabled": false,
     "editor.renderWhitespace": "none",
-    "editor.fontSize": 14,
+    "editor.fontSize": 18,
+    "window.zoomLevel": -1,
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f"
-    },
     "omnisharp.useModernNet": false,
     "omnisharp.monoPath": "/usr/bin/mono",
     "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.fontSize": 12,
     "cmake.configureOnOpen": false,
     "extensions.ignoreRecommendations": true,
     "3dviewer.background": "#3477eb",
@@ -34,5 +29,8 @@
     },
     "workbench.editorAssociations": {
         "*.obj": "default"
-    }
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }
