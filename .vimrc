@@ -17,6 +17,7 @@ Plugin 'junegunn/seoul256.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin '907th/vim-auto-save'
+Plugin 'morhetz/gruvbox'
 call vundle#end()            " required
 filetype plugin indent on    " required
 "
@@ -41,6 +42,7 @@ let g:airline_theme='base16'
 let g:user_emmet_leader_key='<C-Z>'
 
 nnoremap <F2> :NERDTreeToggle<CR>
+let NERDTreeIgnore = ['\.o$']
 
 let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:auto_save_silent = 1  " do not display the auto-save notification
@@ -53,4 +55,4 @@ colo seoul256
 
 set background=dark
 " no background (opacity)
-hi Normal ctermbg=NONE guibg=NONE
+"hi Normal ctermbg=NONE guibg=NONE
