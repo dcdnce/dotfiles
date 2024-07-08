@@ -1,0 +1,49 @@
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 16.0
+
+[font.bold]
+family = "JetBrains Mono"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+
+[font.italic]
+family = "JetBrains Mono"
+
+[font.normal]
+family = "JetBrains Mono"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Control"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[shell]
+program = "/usr/bin/tmux"
+
+[window]
+decorations = "none"
+dynamic_padding = false
+dynamic_title = true
+opacity = 0.9
+startup_mode = "Maximized"
+title = "Alacritty"
+
+[window.padding]
+x = 5
+y = 5
+
+[window.position]
+x = 0
+y = 0
