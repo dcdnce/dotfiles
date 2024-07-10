@@ -9,6 +9,7 @@
     "editor.guides.indentation": false,
     "editor.renderWhitespace": "none",
     "editor.fontSize": 18,
+    "workbench.editor.enablePreview": false,
     "window.zoomLevel": -1,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "omnisharp.useModernNet": false,
