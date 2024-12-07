@@ -1,8 +1,14 @@
-#option file
 --style=stroustrup
 --indent=tab=4
 --indent-classes
 --indent-namespaces
+--indent-switches
+--indent-preproc-block
 --pad-header
+--pad-oper
+--pad-comma
+--add-braces
 --align-pointer=type
 --align-reference=type
+--max-code-length=120
+--break-closing-braces
